@@ -1,10 +1,10 @@
 127.0.0.1	localhost
 
 # for hadoop cluster
-10.0.0.251	d1
-10.0.0.252	d2
-10.0.0.253	d3
-10.0.0.254	d4
+167.71.218.223	    hadoop1
+157.245.150.196	    hadoop2
+167.71.218.173	    hadoop3
+157.245.47.92	    hadoop4
 
 # The following lines are desirable for IPv6 capable hosts
 # ::1     localhost ip6-localhost ip6-loopback

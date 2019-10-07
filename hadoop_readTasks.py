@@ -5,7 +5,7 @@ def getJSON(url):
     r = requests.get(url)
     return json.loads(r.text)
 
-server = 'http://d1:19888'
+server = 'http://hadoop1:19888'
 url = server + '/ws/v1/history/mapreduce/jobs'
 
 parsed_json = getJSON(url)

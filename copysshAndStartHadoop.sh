@@ -1,3 +1,5 @@
+su hduser
+
 ssh-keygen -t rsa -P ""
 ssh-copy-id -i ~/.ssh/id_rsa.pub hduser@hadoop1
 ssh-copy-id -i ~/.ssh/id_rsa.pub hduser@hadoop2
@@ -7,7 +9,6 @@ ssh 0.0.0.0
 
 echo 'starting hadoop now'
 
-echo 'hadoop1' > $HADOOP_HOME/etc/hadoop/masters
 hadoop namenode -format
 $HADOOP_HOME/sbin/start-dfs.sh
 $HADOOP_HOME/sbin/start-yarn.sh
