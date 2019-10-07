@@ -1,0 +1,12 @@
+127.0.0.1	localhost
+
+# for hadoop cluster
+10.0.0.251	d1
+10.0.0.252	d2
+10.0.0.253	d3
+10.0.0.254	d4
+
+# The following lines are desirable for IPv6 capable hosts
+# ::1     localhost ip6-localhost ip6-loopback
+# ff02::1 ip6-allnodes
+# ff02::2 ip6-allrouters
