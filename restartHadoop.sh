@@ -23,6 +23,8 @@ ssh -t hduser@hadoop4 'rm -rf ~/hdfs/namenode/*'
 ssh -t hduser@hadoop4 'rm -rf ~/hdfs/datanode/*'
 ssh -t hduser@hadoop4 'rm -rf ~/hdfs/tmp/*'
 
+hadoop namenode -format
+
 /usr/local/hadoop/sbin/start-dfs.sh
 /usr/local/hadoop/sbin/start-yarn.sh
 /usr/local/hadoop/sbin/mr-jobhistory-daemon.sh --config /usr/local/hadoop/etc/hadoop start historyserver
