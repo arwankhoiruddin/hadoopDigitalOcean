@@ -1,5 +1,3 @@
-su hduser
-
 ssh-keygen -t rsa -P ""
 ssh-copy-id -i ~/.ssh/id_rsa.pub hduser@hadoop1
 ssh-copy-id -i ~/.ssh/id_rsa.pub hduser@hadoop2

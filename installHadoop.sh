@@ -1,5 +1,5 @@
 # Install JDK 8
-sudo cp ~/environment /etc/environment
+sudo cp ./environment /etc/environment
 sudo mkdir /usr/lib/jvm
 cd /usr/lib/jvm
 sudo tar -xvzf ~/jdk-8u221-linux-x64.tar.gz
